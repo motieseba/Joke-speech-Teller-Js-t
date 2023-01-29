@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background: #45BADD;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    
+}
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  #joke-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: lightblue;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+
+
+  }
+  
+  #joke-display {
+    padding: 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.2);
+  }
+
+.joke-container{
+    background-image: url('./robot.gif');
+    background-repeat: no-repeat;
+    background-position: left center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 1000px) {
+  .joke-container{
+    background-position: center center;
+  }
+  #joke-btn{
+    box-shadow: 5px 5px 30px 20px rgba(0, 0, 0, 0.2);
+
+  }
+  
+}
